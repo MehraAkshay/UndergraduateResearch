@@ -9,7 +9,8 @@
     - If you want to generate a linearly spaced vector (which is a [one dimensional array](https://en.wikipedia.org/wiki/Array_data_structure#One-dimensional_arrays)) in Matlab, you can either use the function `linspace` or leverage the colon operator, like so:
         
     ```Matlab
-        % linspace takes the general form linspace(x1, x2, n), where x1 is the first number, x2 is the second number, and n (which is optional) is the number of elements
+        % linspace takes the general form linspace(x1, x2, n), 
+        % where x1 is the first number, x2 is the second number, and n (which is optional) is the number of elements
         numberVector = linspace(1, 100, 100);
         % Alternatively, generate a vector from 1 to 100 with a spacing of 1 using the colon operator
         % The general form is x1:spacing:x2
