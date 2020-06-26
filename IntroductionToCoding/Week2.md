@@ -21,9 +21,10 @@
 
 2. Given a number **n**, output a matrix that serves as a multiplication table for all numbers **1 to n**.
 
-    A hint:
+    Two hints:
 
-    - The `'` operator [**transposes**](https://chortle.ccsu.edu/VectorLessons/vmch13/vmch13_14.html) a matrix. 
+    - The `'` operator [**transposes**](https://chortle.ccsu.edu/VectorLessons/vmch13/vmch13_14.html) a matrix.
+    - This problem can be solved by some simple [matrix multiplication](https://www.mathsisfun.com/algebra/matrix-multiplying.html). 
 
 ## Some thoughts
 
