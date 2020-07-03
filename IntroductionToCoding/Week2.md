@@ -149,7 +149,7 @@
         % Add 1 to each value in input
         % Since input is a vector, you can omit the column specification and instead write:
         % output(idx) = input(idx) + 1;
-        output(idx, 1) = input(idx, 1) + 1;
+        output(idx, 1) = input(1, idx) + 1;
     end
     % Output is now 2:11
 ```
