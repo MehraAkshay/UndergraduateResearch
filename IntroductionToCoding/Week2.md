@@ -121,7 +121,7 @@
 
 - A mainstay of programming are **loops**, which repeat the same code until some condition is reached
 - Here, we'll discuss `for` loops, but there are other forms of repeatable code, including [`while`](https://www.mathworks.com/help/matlab/ref/while.html).
-- In general, a `for` loop runs for a set number of **iterations**. In Matlab, `for` loops take the general form:
+- In general, a `for` loop runs for a set number of **iterations**. In Matlab, `for` loops take the form:
 ```Matlab
     for indexVariable = startingIteration:endingIteration
         % Do something 
