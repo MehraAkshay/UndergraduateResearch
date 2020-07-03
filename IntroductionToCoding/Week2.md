@@ -127,7 +127,7 @@
         % Do something 
     end
 ```
-- Note that the keyword `end` must be included at the end of your for loop (Same for if statements and functions)!
+- Note that the keyword `end` must be included at the end of your for loop (same for if statements and functions)!
 - So, to write a for loop that iterates through integers 1 to 10, you would write:
 ```Matlab
     for idx = 1:10
