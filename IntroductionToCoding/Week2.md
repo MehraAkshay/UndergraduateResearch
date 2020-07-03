@@ -2,7 +2,7 @@
 
 ## Exercises
 
-1. Given a number **n**, find the sum of all numbers from **1 to n**. 
+1. Given an integer **n**, find the sum of all integers from **1 to n**. 
 
     Two hints that might be useful for solving this problem: 
 
@@ -19,7 +19,7 @@
 
     - The function `sum` will add up all of the entries in a vector and return a single number.
 
-2. Given a number **n**, output a matrix that serves as a multiplication table for all numbers **1 to n**.
+2. Given an integer **n**, output a matrix that serves as a multiplication table for all integers **1 to n**.
 
     Two hints:
 
