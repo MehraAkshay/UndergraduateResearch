@@ -116,6 +116,7 @@
     % conditionalTest is 1
 ```
 - Note that `&&` and `||` represent the **short circuiting** versions of `&` and `|`. That means that Matlab won't evaluate subsequent conditions unless the first one is true. 
+- Put in if statement!
 
 ## On loops and program flow
 
@@ -147,8 +148,8 @@
     for idx = 1:length(input)
         % Add 1 to each value in input
         % Since input is a vector, you can omit the column specification and instead write:
-        % output(x) = input(x) + 1;
-        output(x, 1) = input(x, 1) + 1;
+        % output(idx) = input(idx) + 1;
+        output(idx, 1) = input(idx, 1) + 1;
     end
     % Output is now 2:11
 ```
