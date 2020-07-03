@@ -171,4 +171,4 @@
         squared = inputMatrix .^ 2;
     end
 ```
-- Functions enable you to create reusable logic.  Used correctly, they enable you to practice the [**DRY**](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)(i.e., don't repeat yourself) principle. For example, if you find yourself doing the same set of actions on multiple variables, turn those actions into a function!
+- Functions enable you to create reusable logic.  Used correctly, they enable you to practice the [**DRY**](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (i.e., don't repeat yourself) principle. For example, if you find yourself doing the same set of actions on multiple variables, turn those actions into a function!
