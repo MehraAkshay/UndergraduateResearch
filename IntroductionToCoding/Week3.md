@@ -14,23 +14,23 @@ Two hints:
     <img src="boxModel.png" width="250" />
     <p>
     which has some input flux (F<sub>in</sub>), some output flux (F<sub>out</sub>), and a *reservoir* with some contents. At steady state, F<sub>in</sub> = F<sub>out</sub>. Imagine, for example, you fill up a bathtub with water (i.e., the contents). Then, you open the drain. If the amount of water coming out of the faucet (i.e., the input flux) is exactly the same as the amount of water leaving down the drain (i.e., the output flux), the water level in the bathtub will not change.
-1. Now, say we want to understand what happens if F<sub>in</sub> is not equal to F<sub>out</sub>, using the vectors that we output in step 1 as a starting point. Write a function that accepts the variables *tValues* and *aValues*, along with a perturbation time *pT*, and perturbation values *fIn* and *fOut*. Your function, titled something like **perturbationTest**, should:
+1. Now, say we want to understand what happens if F<sub>in</sub> is not equal to F<sub>out</sub>. We can do so by using the vectors that we created in step 1 as a starting point. Write a function that takes in the variables *tValues* and *aValues*, along with a perturbation time *pT*, and perturbation values *fIn* and *fOut*. Your function, titled something like **perturbationTest**, should:
     - Create a new vector called *perturbedValues*.
     - At each time step, decide whether the value of *a* should be updated (hint, if the time is less than the value of *pT*, nothing should change). If nothing should be done, the value of *a* should be copied into *perturbedValues*.
     - If it is necessary to update, add the value of *fIn* to the last value inserted into *perturbedValues* and subtract the value of *fOut* from the result, then store the final value in *perturbedValues*.
     - Plot *perturbedValues* against time. 
     - Also plot up the original values of *a* vs. time on the same figure (hint: use the function `hold on`).
     - Output *perturbedValues*. 
-2. For 1 and 2, use the following values for variables:
+2. For both 1 and 2, use the following values for the named variables:
     Variable | Value
     --- | ---
-    *a* | 100
-    *timeStart* | 1
-    *timeEnd* | 100
+    *a* | 100.0
+    *timeStart* | 1.0
+    *timeEnd* | 100.0
     *deltaT* | .01
-    *pT* | 25
-    *fIn* | 10
-    *fOut* | 5
+    *pT* | 25.0
+    *fIn* | 10.0
+    *fOut* | 5.0
 
     Note: run the function in step 2 twice, flipping the values of *fIn* and *FOut*.
 
