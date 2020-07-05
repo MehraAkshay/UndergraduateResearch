@@ -1,4 +1,4 @@
-# Week2: Two short exercises and some notes
+# Week 2: Two short exercises and some notes
 
 ## Exercises
 
