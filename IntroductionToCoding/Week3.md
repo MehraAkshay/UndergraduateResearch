@@ -10,16 +10,18 @@ Two hints:
     - The function `plot(x, y)` will plot the values in `x` and `y` as a line. See `doc plot` for more information. 
 
     The function above can be thought of as a simulation of a system at **[steady state](https://en.wikipedia.org/wiki/Steady_state)**. We can represent such a system using a simple box model:
-    ![A simple box box model](./boxModel.png)
+    <p align="center">
+    <img src="boxModel.png" width="250" />
+    <p>
     which has some input flux (F<sub>in</sub>), some output flux (F<sub>out</sub>), and a *reservoir* with some contents. At steady state, F<sub>in</sub> = F<sub>out</sub>. Imagine, for example, you fill up a bathtub with water (i.e., the contents). Then, you open the drain. If the amount of water coming out of the faucet (i.e., the input flux) is exactly the same as the amount of water leaving down the drain (i.e., the output flux), the water level in the bathtub will not change.
-2. Now, say we want to understand what happens if F<sub>in</sub> is not equal to F<sub>out</sub>, using the vectors that we output in step 1 as a starting point. Write a function that accepts the variables *tValues* and *aValues*, along with a perturbation time *pT*, and perturbation values *fIn* and *fOut*. Your function, titled something like **perturbationTest**, should:
+1. Now, say we want to understand what happens if F<sub>in</sub> is not equal to F<sub>out</sub>, using the vectors that we output in step 1 as a starting point. Write a function that accepts the variables *tValues* and *aValues*, along with a perturbation time *pT*, and perturbation values *fIn* and *fOut*. Your function, titled something like **perturbationTest**, should:
     - Create a new vector called *perturbedValues*.
     - At each time step, decide whether the value of *a* should be updated (hint, if the time is less than the value of *pT*, nothing should change). If nothing should be done, the value of *a* should be copied into *perturbedValues*.
     - If it is necessary to update, add the value of *fIn* to the last value inserted into *perturbedValues* and subtract the value of *fOut* from the result, then store the final value in *perturbedValues*.
     - Plot *perturbedValues* against time. 
     - Also plot up the original values of *a* vs. time on the same figure (hint: use the function `hold on`).
     - Output *perturbedValues*. 
-3. For 1 and 2, use the following values for variables:
+2. For 1 and 2, use the following values for variables:
     Variable | Value
     --- | ---
     *a* | 100
