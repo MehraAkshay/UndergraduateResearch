@@ -7,7 +7,7 @@ This week, we will have a single assignment, with two parts.
 1. Given a real number *a*, a time step *deltaT*, and a span of time made up of a start value *timeStart* and an end value *timeEnd*, write a function that:
    - Produces a vector of time values, *tValues*, from *timeStart* to *timeEnd*, with spacing *deltaT*.
    - Creates a second vector, *aValues*, of equal length to the first, whose elements all have the value *a*.
-   - Plots time vs *a*. 
+   - Plots *a* against time. 
 
     Name the function something like **constantSignal**. 
 
@@ -15,11 +15,11 @@ This week, we will have a single assignment, with two parts.
    - If the first line in your function is `close all`, Matlab will close any open figure windows before proceeding. 
    - The function `plot(x, y)` will plot the values in `x` and `y` as a line. See `doc plot` for more information. 
 
-The function above can be thought of as a simulation of a system at **[steady state](https://en.wikipedia.org/wiki/Steady_state)**. We can represent such a system using a simple box model:
-  <p align="center">
-  <img src="boxModel.png" width="250" />
-  <p>
-  which has some input flux (F<sub>in</sub>), some output flux (F<sub>out</sub>), and a *reservoir* with some contents. At steady state, F<sub>in</sub> = F<sub>out</sub>. Imagine, for example, you fill up a bathtub with water (i.e., the contents). Then, you open the drain. If the amount of water coming out of the faucet (i.e., the input flux) is exactly the same as the amount of water leaving down the drain (i.e., the output flux), the water level in the bathtub will not change.
+   The function above can be thought of as a simulation of a system at **[steady state](https://en.wikipedia.org/wiki/Steady_state)**. We can represent such a system using a simple box model:
+     <p align="center">
+     <img src="boxModel.png" width="250" />
+     <p>
+     which has some input flux (F<sub>in</sub>), some output flux (F<sub>out</sub>), and a *reservoir* with some contents. At steady state, F<sub>in</sub> = F<sub>out</sub>. Imagine, for example, you fill up a bathtub with water (i.e., the contents). Then, you open the drain. If the amount of water coming out of the faucet (i.e., the input flux) is exactly the same as the amount of water leaving down the drain (i.e., the output flux), the water level in the bathtub will not change.
 
 2. Now, say we want to understand what happens if F<sub>in</sub> is not equal to F<sub>out</sub>. We can do so by using the vectors that we created in step 1 as a starting point. Write a function that takes in the variables *tValues* and *aValues*, along with a perturbation time *pT*, and perturbation values *fIn* and *fOut*. Your function, titled something like **perturbationTest**, should:
     - Create a new vector called *perturbedValues*.
