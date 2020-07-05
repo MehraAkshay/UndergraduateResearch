@@ -1,4 +1,4 @@
-# Week 3: Two short exercises and some notes
+# Week 3: Exercises and some notes
 
 ## Exercises
 
