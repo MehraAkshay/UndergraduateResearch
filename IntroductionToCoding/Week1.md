@@ -8,7 +8,7 @@
     ```Matlab
         % Variable names that you will regret when you try to read your code 6 months after writing it
         a = 1; 
-        thisIsAVeryVeryLongVariableNameThatDoesn'tTellMeAnythingAboutWhatItContains = 0;
+        thisIsAVeryVeryLongVariableNameThatDoesntTellMeAnythingAboutWhatItContains = 0;
         01 = 1;
         % Variable names that are easy to follow
         gravityConstant = 9.8;
