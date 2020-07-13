@@ -2,7 +2,7 @@
 
 ## Box model
 
-Last week, we created a very simple box model that, unlike systems in the real world, lacked any sort of [feedback](https://en.wikipedia.org/wiki/Feedback). This lack of feedback --- and the absence of any sort of error checking (i.e., stopping when the system output negative numbers) meant that our box model wasn't very useful. This week, we'll add several elements to our box model. 
+Last week, we created a very simple box model that, unlike systems in the real world, lacked any sort of [feedback](https://en.wikipedia.org/wiki/Feedback). This lack of feedback --- and the absence of any sort of error checking (i.e., stopping when the system output negative numbers)---meant that our box model wasn't very useful. This week, we'll add several elements to our box model. 
 
 ### Residence time
 
