@@ -6,7 +6,7 @@ Last week, we created a very simple box model that, unlike systems in the real w
 
 ### Residence time
 
-To start off with, we'll write a function that calculates the [residence time](https://en.wikipedia.org/wiki/Residence_time) of the contents of a box at **steady state** (meaning that the system is not changing, and that *F<sub>in</sub> = F<sub>out</sub>*). Residence time *T* is defined as:
+To start off with, we'll write a function that calculates the [residence time](https://en.wikipedia.org/wiki/Residence_time) of the contents of a box at **steady state** (meaning that the system is not changing and that *F<sub>in</sub> = F<sub>out</sub>*). Residence time *T* is defined as:
 
 <img src="https://render.githubusercontent.com/render/math?math=T = contents/\sum{flux}"></img>
 
